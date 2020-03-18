@@ -69,7 +69,7 @@ function validateName() {
   return isValid;  
 }
 /**
- * validate message fiels
+ * validate message field
  * @return (boolean) - true if name is valid
  */
 
@@ -100,4 +100,8 @@ function validateMessage() {
 
 /* links of pages tested manualy and they are not broken. 
 Page responsive in small screen.
-tested and working in Google Crmoe and Safari */
+tested and working in Google Crmoe, firefox and Safari */
+
+/* links of pages tested manualy and they are not broken. 
+Page responsive in small screen.
+tested and working in Google Crmoe, firefox and Safari */

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="about-bg">
+<!--Maria Santos - Webproject-->
+<head>
+    <title>Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../Style/my.css">
+    <script src="../Script/converter.js"></script>
+</head>
+<body>
+    <!--navigation menu-->
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="projects.html">Projects</a>
+
+        <!--responsive when page is a mobile size-->
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <!--content of about page-->
+    <div class="content">
+        <h2>TEMPERATURE CONVERTER</h2>
+        <form id="form02">
+            <!--table ask for Fahrenheit temperature and output in Celsius -->
+            <p>Enter the Fahrenheit temperature</p>
+            <input type="text" id="fahr" name="fahr" /> <br>
+            <input type="submit" class="submit" value="Convert">
+            <input type="reset" class="reset" value="Clear" />
+            <br>
+            <p>Celsius</p>
+            <input id="celsius" name="celsius" type="text" disabled="disabled">
+
+        </form>
+
+    </div>
+    <!-- /* links of pages tested manualy and they are not broken. 
+Page responsive in small screen.
+tested and working in Google Crmoe, firefox and Safari */ -->
+</body>
+
+</html>
